@@ -70,7 +70,6 @@ app.get("/products/:id", (req, res) => {
   res.json(productFound);
 });
 
-const port = 3000;
-app.listen(port, () => {
+app.listen(3000, () => {
   console.log(`running on port ${port}`);
 });
