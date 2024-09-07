@@ -71,5 +71,5 @@ app.get("/products/:id", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log(`running on port ${port}`);
+  console.log(`running on port ${3000}`);
 });
